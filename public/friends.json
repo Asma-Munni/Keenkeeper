@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://i.ibb.co.com/DPpGnKL1/istockphoto-2182900307-1024x1024.jpg",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "picture": "https://i.ibb.co.com/PsLSrvNd/christopher-campbell-r-DEOVt-E7v-Os-unsplash.jpg",
+    "email": "jane@example.com",
+    "days_since_contact": 7,
+    "status": "on track",
+    "tags": ["work", "close friend"],
+    "bio": "We used to work in the same office. Great conversations over coffee.",
+    "goal": 21,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "name": "Mike Johnson",
+    "picture": "https://i.ibb.co.com/PsLSrvNd/christopher-campbell-r-DEOVt-E7v-Os-unsplash.jpg",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["gym buddy", "acquaintance"],
+    "bio": "Met at the gym. Occasionally meet for workouts.",
+    "goal": 10,
+    "next_due_date": "2025-08-10"
+  },
+  {
+    "id": 4,
+    "name": "Sarah Lee",
+    "picture": "https://i.ibb.co.com/DPpGnKL1/istockphoto-2182900307-1024x1024.jpg",
+    "email": "sarah@example.com",
+    "days_since_contact": 5,
+    "status": "on track",
+    "tags": ["neighbor", "good friend"],
+    "bio": "We live next door. Often catch up on weekends.",
+    "goal": 20,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 5,
+    "name": "David Brown",
+    "picture": "https://i.ibb.co.com/PsLSrvNd/christopher-campbell-r-DEOVt-E7v-Os-unsplash.jpg",
+    "email": "david@example.com",
+    "days_since_contact": 40,
+    "status": "need attention",
+    "tags": ["college", "old friend"],
+    "bio": "Friend from college. We used to hang out a lot.",
+    "goal": 10,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 6,
+    "name": "Emily Davis",
+    "picture": "https://i.ibb.co.com/5WngHSFw/portrait-white-man-isolated.jpg",
+    "email": "emily@example.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["travel buddy", "close friend"],
+    "bio": "Traveled together to Europe last summer. Always have great adventures.",
+    "goal": 30,
+    "next_due_date": "2025-08-15"
+  },
+  {
+    "id": 7,
+    "name": "Chris Williams",
+    "picture": "https://i.ibb.co.com/4yDxHKb/close-up-portrait-curly-handsome-european-male.jpg",
+    "email": "chris@example.com",
+    "days_since_contact": 10,
+    "status": "on track",
+    "tags": ["work", "mentor"],
+    "bio": "Mentor at my last job. Helped me with career advice.",
+    "goal": 12,
+    "next_due_date": "2025-07-22"
+  },
+  {
+    "id": 8,
+    "name": "Olivia Harris",
+    "picture": "https://i.ibb.co.com/5WngHSFw/portrait-white-man-isolated.jpg",
+    "email": "olivia@example.com",
+    "days_since_contact": 2,
+    "status": "on track",
+    "tags": ["book club", "close friend"],
+    "bio": "Book club friends. Love discussing the latest novels.",
+    "goal": 25,
+    "next_due_date": "2025-07-16"
+  },
+  {
+    "id": 9,
+    "name": "Daniel Martin",
+    "picture": "https://i.ibb.co.com/5WngHSFw/portrait-white-man-isolated.jpg",
+    "email": "daniel@example.com",
+    "days_since_contact": 60,
+    "status": "need attention",
+    "tags": ["family", "cousin"],
+    "bio": "Cousin. Haven't caught up in a while. Used to see each other during family gatherings.",
+    "goal": 18,
+    "next_due_date": "2025-08-30"
+  },
+  {
+    "id": 10,
+    "name": "Lucas Garcia",
+    "picture": "https://i.ibb.co.com/5WngHSFw/portrait-white-man-isolated.jpg",
+    "email": "lucas@example.com",
+    "days_since_contact": 3,
+    "status": "on track",
+    "tags": ["travel buddy", "friend"],
+    "bio": "Met while backpacking in Asia. Keep in touch through travel stories.",
+    "goal": 8,
+    "next_due_date": "2025-07-18"
+  }
+]
