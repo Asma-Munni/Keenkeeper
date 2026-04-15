@@ -17,7 +17,7 @@ const YourFriends = () => {
   
 
   return (
-    <Link >
+    <div >
       <h2 className='font-bold mb-3'>Your Friends: {friends.length}</h2>
       <ul>
         
@@ -56,7 +56,7 @@ const YourFriends = () => {
     </div>
        
       </ul>
-    </Link>
+    </div>
   );
 };
 

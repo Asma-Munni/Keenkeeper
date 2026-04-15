@@ -9,6 +9,7 @@ import Homepage from './pages/homepage/Homepage.jsx';
 import ErrorPage from './pages/errorpage/ErrorPage.jsx';
 import FriendDetails from './pages/frienddetails/FriendDetails.jsx';
 import TimelineContext from "../src/context/TimelineContext"
+import Timeline from './pages/timeline/Timeline.jsx';
 
 
 

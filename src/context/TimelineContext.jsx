@@ -1,9 +1,17 @@
-import React, { createContext } from 'react';
+import React, { createContext, useState } from 'react';
 
-const FriendTimelineContext = createContext();
+export const FriendTimelineContext = createContext();
 
- const data = {name: "munni"}
+ 
 const TimelineContext = ({children}) => {
+
+    const [friendTimeline, setFriendTimeline] = useState([]);
+
+    const data = {
+       friendTimeline, setFriendTimeline,
+
+       };
+
     return <FriendTimelineContext.Provider value={data}>{children}</FriendTimelineContext.Provider>
 };
 
