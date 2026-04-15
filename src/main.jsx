@@ -8,6 +8,8 @@ import RootLayout from './layout/RootLayout.jsx';
 import Homepage from './pages/homepage/Homepage.jsx';
 import ErrorPage from './pages/errorpage/ErrorPage.jsx';
 import FriendDetails from './pages/frienddetails/FriendDetails.jsx';
+import TimelineContext from "../src/context/TimelineContext"
+
 
 
 const router = createBrowserRouter([
@@ -26,7 +28,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/timeline",
-        element: <h2>Timeline</h2>
+        element: <Timeline></Timeline>
       }
     ],
     errorElement: <ErrorPage></ErrorPage>
@@ -35,6 +37,14 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />,
+   <TimelineContext>
+       <RouterProvider router={router} />
+   </TimelineContext>
+    
+  
+    
+   
+    
+     
   </StrictMode>,
 )
