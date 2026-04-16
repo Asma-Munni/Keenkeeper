@@ -10,7 +10,8 @@ import ErrorPage from './pages/errorpage/ErrorPage.jsx';
 import FriendDetails from './pages/frienddetails/FriendDetails.jsx';
 import TimelineContext from "../src/context/TimelineContext"
 import Timeline from './pages/timeline/Timeline.jsx';
-import States from './pages/states/States.jsx';
+import Stats from './pages/states/States.jsx';
+
 
 
 
@@ -33,8 +34,8 @@ const router = createBrowserRouter([
         element: <Timeline></Timeline>
       },
       {
-        path:"/states",
-        element:<States></States>
+        path:"/stats",
+        element:<Stats></Stats>
       }
 
     ],

@@ -14,25 +14,25 @@ const HomepageBanner = () => {
 
       
       
-      <div className="flex justify-between gap-2">
-        <div className="bg-white p-6 rounded-lg shadow-md text-center w-1/4 ">
+      <div className="grid  sm:grid-col-2 md:grid-cols-4 justify-center gap-2 items-center">
+        <div className="bg-white p-6 rounded-lg shadow-md text-center  ">
           <h3 className="text-3xl font-bold text-[#64748b]">10</h3>
           <p className="text-sm text-[#64748b]">Total Friends</p>
         </div>
         
-        <div className="bg-white p-6 rounded-lg shadow-md text-center w-1/4 ">
+        <div className="bg-white p-6 rounded-lg shadow-md text-center  ">
           <h3 className="text-3xl font-bold text-[#64748b]">3</h3>
           <p className="text-sm text-[#64748b]">On Track</p>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-md text-center w-1/4">
+        <div className="bg-white p-6 rounded-lg shadow-md text-center ">
           <h3 className="text-3xl font-bold text-[#64748b]">6</h3>
           <p className="text-sm text-[#64748b]">Need Attention</p>
         </div>
 
-        <div className="bg-white p-6 rounded-lg shadow-md text-center w-1/4">
+        <div className="bg-white p-6 rounded-lg shadow-md text-center ">
           <h3 className="text-3xl font-bold text-[#64748b]">12</h3>
-          <p className="text-sm text-[#64748b]">Interactions This Month</p>
+          <p className="text-[12px] text-[#64748b]">Interactions This Month</p>
         </div>
       </div>
     </div>
