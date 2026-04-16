@@ -8,6 +8,7 @@ import { BiSolidPhoneCall } from 'react-icons/bi';
 import { MdOutlineTextsms, MdOutlineVideocam } from 'react-icons/md';
 import { FadeLoader } from 'react-spinners';
 import UseApps from '../../hook/UseApps';
+import { toast } from 'react-toastify';
 
 const FriendDetails = () => {
     const { id } = useParams();
@@ -46,6 +47,21 @@ const FriendDetails = () => {
             actionIcon: getActionIcon(actionType),
         };
         setFriendTimeline([...friendTimeline, actionDetails]);
+
+        {/*toast */}
+       let toastMessage = '';
+
+    if (actionType === 'Call') {
+        toastMessage = `${expectedFriend.name} is calling!`;
+    } 
+    else if (actionType === 'Text') {
+        toastMessage = `${expectedFriend.name} is texting!`;
+    } 
+    else if (actionType === 'Video') {
+        toastMessage = `${expectedFriend.name} is video calling!`;
+    }
+
+    toast(toastMessage);
     };
 
     const getActionIcon = (actionType) => {
@@ -62,7 +78,7 @@ const FriendDetails = () => {
             <div className="max-w-6xl mx-auto">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
 
-                    {/* ==================== Left Side - Profile ==================== */}
+                    {/*Left Side - Profile  */}
                     <div className="lg:col-span-5">
                         <div className="bg-white rounded-3xl shadow-sm p-8 sticky top-8">
                             <div className="flex flex-col items-center text-center">
@@ -119,7 +135,7 @@ const FriendDetails = () => {
                         </div>
                     </div>
 
-                    {/* ==================== Right Side ==================== */}
+                    {/*  Right Side  */}
                     <div className="lg:col-span-7 space-y-6">
 
                         {/* Stats Cards - Days Since Contact, Goal, Next Due */}
@@ -186,32 +202,8 @@ const FriendDetails = () => {
                             </div>
                         </div>
 
-                        {/* Recent Interactions */}
-                        <div className="bg-white rounded-3xl p-8 shadow-sm">
-                            <h3 className="text-xl font-semibold text-gray-900 mb-6">Recent Interactions</h3>
-                            <div className="space-y-6">
-                                {friendTimeline.length > 0 ? (
-                                    friendTimeline.map((interaction, index) => (
-                                        <div key={index} className="flex gap-4">
-                                            <div className="text-3xl mt-1">{interaction.actionIcon}</div>
-                                            <div className="flex-1">
-                                                <div className="font-medium text-gray-900">{interaction.type}</div>
-                                                <div className="text-gray-600 text-sm mt-0.5">
-                                                    With {interaction.friend}
-                                                </div>
-                                            </div>
-                                            <div className="text-sm text-gray-400 whitespace-nowrap">
-                                                {interaction.date}
-                                            </div>
-                                        </div>
-                                    ))
-                                ) : (
-                                    <div className="text-center text-gray-500 py-8">
-                                        No interactions yet. Start connecting!
-                                    </div>
-                                )}
-                            </div>
-                        </div>
+                       
+                       
 
                     </div>
                 </div>
