@@ -1,16 +1,33 @@
-# React + Vite
+This project's name is Keenkeeper.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KeenKeeper is a friendship relationship tracker web application that helps users keep track of their connections, log interactions, and visualize communication patterns in a simple and modern interface.
 
-Currently, two official plugins are available:
+Keenkeeper:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is designed to help users maintain meaningful relationships by tracking calls, texts, and video interactions with friends. It provides a clean dashboard, timeline-based interaction history, and visual analytics for better relationship.
 
-## React Compiler
+TECHNOLOGY USED:
+  React
+  React Router
+  Tailwind CSS
+  Context API
+  React Icons
+  React Toastify
+  Recharts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Key features:
 
-## Expanding the ESLint configuration
+**Friend interection tracking:
+Users can record different types of interactions such as calls, texts, and video calls with their friends.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Timeline filtering:
+The timeline page allows users to filter interactions by type, making it easy to view only calls, texts, or video calls.
+
+**Analytics Dashboard:
+The stats page displays interaction data in a visual chart, helping users quickly understand their communication habits.
+
+**Project Perpose:
+
+The main goal of KeenKeeper is to encourage consistent communication and help users stay connected with the people who matter most.
+
+
